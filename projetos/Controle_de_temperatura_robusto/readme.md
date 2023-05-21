@@ -141,14 +141,15 @@ oferecida no primeiro semestre de 2023, na Unicamp, sob supervisão da Profa. Dr
 
 ### Especificação de Algoritmos 
 
-> (Se preferir, adicione um link para o documento de especificação de algoritmos).
-> 
-> Deve ser elaborado para CADA evento o algoritmo de tratamento deste evento. Com base no
-> tamanho de cada algoritmo, estima-se o tamanho de memória necessária para armazenar todos
-> os programas e os dados associados. Isso permitirá especificar a memória a ser utilizada e o
-> espaço onde serão armazenados os programas. O algoritmo de tratamento de evento pode
-> ser representado graficamente por um fluxograma. Recomenda-se usar símbolos gráficos consistentes 
-> com a norma internacional ISO 1028-1973 e IS0 2972-1979.
+>Para a especificação dos algoritmos, ilustra-se em 3 fluxogramas:
+>
++>Interface do usuário: este fluxograma representa a interação entre o sistema de controle de temperatura e o usuário. Ele descreve as diferentes opções e funcionalidades disponíveis na interface do usuário. Aqui estão os principais elementos do fluxograma:
+Tela de início com a inicialização do sistema;
+->Menu de configuração na qual exibe opções disponíveis ao usuário, como: calibração, rede Wi-Fi.
+->Caso identifique uma interrupção via teclado/encoder, exibe opções disponíveis ao usuário de configuração.
+Tratamento de cada modo de configuração.
+->Se não for identificada durante o processo nenhuma interrupção, o display continua mostrando os dados ao usuário.
+
 
 
 ## Referências
