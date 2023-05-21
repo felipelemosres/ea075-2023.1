@@ -117,7 +117,16 @@ oferecida no primeiro semestre de 2023, na Unicamp, sob supervisão da Profa. Dr
 > Microcontrolador ATmega (a princípio) que realiza os cálculos
 
 >![](https://lh4.googleusercontent.com/2-Qc6JEknqoZsFVLEfL1C0yD5RxjqQ5rzbKLFPHxtnHVWpqCpuINMYjDCzHNdL85RB-CQwJgaGBi5FXKHwUfHJIe94HMGEX_EM6Ca8KaHotyltf360VodMfV41BdMRJKPM72IPSzlVPoP8UeFhnfKFM)
->
+
+## Descrição 
+> Para a especificação dos algoritmos, ilustra-se em 3 fluxogramas:
+Interface do usuário: este fluxograma representa a interação entre o sistema de controle de temperatura e o usuário. Ele descreve as diferentes opções e funcionalidades disponíveis na interface do usuário. Aqui estão os principais elementos do fluxograma:
+Tela de início com a inicialização do sistema;
+> Menu de configuração na qual exibe opções disponíveis ao usuário, como: calibração, rede Wi-Fi.
+> Caso identifique uma interrupção via teclado/encoder, exibe opções disponíveis ao usuário de configuração.
+Tratamento de cada modo de configuração.
+> Se não for identificada durante o processo nenhuma interrupção, o display continua mostrando os dados ao usuário.
+
 ## Referências
 > -  SILVA, Italo. UTILIZAÇÃO DE UM CONTROLE PID DE TEMPERATURA PARA ESTUDO DE RESFRIAMENTO TERMOELÉTRICO. 2022. Monografia (Graduação em Engenharia Mecânica) - UFPE, [S. l.], 2022. Disponível em: https://repositorio.ufpe.br/bitstream/123456789/47590/1/TCC%20%C3%8Dtalo%20Souza%20da%20Silva.pdf. Acesso em: 2 abr. 2023.
 >
